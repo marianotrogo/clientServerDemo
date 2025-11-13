@@ -18,7 +18,7 @@ import { Server } from 'socket.io'
 // ✅ Definir primero los orígenes permitidos
 const allowedOrigins = process.env.CORS_ORIGIN
   ? process.env.CORS_ORIGIN.split(',')
-  : ['http://localhost:5174', 'https://tusitio.vercel.app'];
+  : ['http://localhost:5174', 'https://https://rest-demo-iota.vercel.app'];
 
 const app = express()
 const httpServer = createServer(app)
